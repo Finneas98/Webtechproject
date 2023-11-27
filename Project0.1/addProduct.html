@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles/addStaff.css">
+  <link rel="stylesheet" href="Styles/Style.css">
+  <link rel="stylesheet" href="Styles/staff.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <title> FootyRush </title>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo headerItem center clickableLogo clickableDiv">
+      <img src="images/Footyrush-logos_transparent.png">
+    </div>
+    <div class="signInBtn headerItem center clickableDiv clickableSignIn">
+      <p> Sign In </p>
+    </div>
+    <div class="profileBtn headerItem center clickableDiv">
+      <img src="images/profile.jpg">
+    </div>
+  </header>
+  <main>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1> Christmas sales now on! </h1>
+        <p> *Active until 1st February* </p>
+        <button> Take me there </button>
+      </div>
+    </div>
+    <div class="staffHeader">
+      <h1> Staff Portal </h1>
+    </div>
+
+    <div class="defaultForm">
+      <h2> Add a Product </h2>
+      <form id="productForm">
+        <label for="pName"> Name: </label>
+        <input type="text" id="pName" name="pName" required><br><br>
+
+        <label for="pDesc"> Description: </label>
+        <input type="text" id="pDesc" name="pDesc" required><br><br>
+
+        <label for="pPrice"> Price: </label>
+        <input type="text" id="pPrice" name="pPrice" required><br><br>
+
+        <label for="pCategory"> Category: </label>
+        <select id="pCategory" name="pCategory">
+          <option value="boots"> Boots </option>
+          <option value="apparel"> Apparel </option>
+          <option value="training"> Training </option>
+          <option value="accessories"> Accessories </option>
+          <option value="nutrition"> Nutrition </option>
+        </select>
+
+        <label for="pBrand"> Brand: </label>
+        <input type="email" id="pBrand" name="pBrand" required><br><br>
+
+        <input type="submit" value="Add Product">
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="returns center footerItem clickableDiv clickableReturns">
+      <p> Returns </p>
+    </div>
+    <div class="shipping center footerItem clickableDiv">
+      <p> Shipping info </p>
+    </div>
+    <div class="faq center footerItem clickableDiv">
+      <p> F.A.Q. </p>
+    </div>
+    <div class="contact center footerItem clickableDiv">
+      <p> Contact Us </p>
+    </div>
+  </footer>
+</div>
+<script src="scripts/script.js"> </script>
+</body>
+</html>

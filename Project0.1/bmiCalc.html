@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles/Style.css">
+        <link rel="stylesheet" href="Styles/userRegister.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+        <title> FootyRush </title>
+        <script src="scripts/register.js"> </script>
+    </head>
+    <body>
+        <div class="container"> 
+            <header>
+                <div class="logo headerItem center clickableLogo clickableDiv">
+                    <img src="images/Footyrush-logos_transparent.png">
+                </div>
+                <div class="signInBtn headerItem center clickableDiv clickableSignIn">
+                    <p> Sign In </p>
+                </div>
+                <div class="profileBtn headerItem center clickableDiv">
+                    <img src="images/profile.jpg">
+                </div>
+            </header>
+            <main>
+                <div class="hero-image">
+                    <div class="hero-text">
+						<h1> Christmas sales now on! </h1>
+						<p> *Active until 1st February* </p>
+						<button> Take me there </button>
+					</div>
+                </div>
+                <div class="mainNav">
+                    <div class="mwBtn navBtn">
+                        <div class="menBtn center clickableDiv">
+							<p> Men </p>
+						</div>
+						<div class="womenBtn center clickableDiv">
+							<p> Women </p>
+						</div>
+                    </div>
+                    <div class="bootsBtn navBtn center clickableDiv">
+                        <p> Boots </p>
+                    </div>
+                    <div class="apparelBtn navBtn center clickableDiv">
+                        <p> Apparel </p>
+                    </div>
+                    <div class="trainingBtn navBtn center clickableDiv">
+                        <p> Training </p>
+                    </div>
+                    <div class="accessBtn navBtn center clickableDiv">
+                        <p> Accessories </p>
+                    </div>
+                    <div class="nutBtn navBtn center clickableDiv">
+                        <p> Nutrition </p>
+                    </div>
+                </div>
+                <div class="mainUserRegister">
+                    <h2> Register </h2>
+                    <div class="userRegisterFormContainer">
+                        <form class="userRegisterForm" id="emailForm" method="get" action="Index.html">
+                            <p> <label for="height"> Enter height (cm): </label> </p>
+                            <p> <input type="text" id="height" name=height> </p>
+                            <p> <label for="weight"> Enter weight (kg): </label>  </p>
+                            <p> <input type="text" id="weight" name="weight"> </p>
+                            <p> <input type="button" id="bmiCalc" value="Calculate"> </p>
+                            <p> Your BMI is: <span id="bmiOutput"> </span> </p>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="returns center footerItem clickableDiv clickableReturns">
+                    <p> Returns </p>
+                </div>
+                <div class="shipping center footerItem clickableDiv">
+                    <p> Shipping info </p>
+                </div>
+                <div class="faq center footerItem clickableDiv">
+                    <p> F.A.Q. </p>
+                </div>
+                <div class="contact center footerItem clickableDiv">
+                    <p> Contact Us </p>
+                </div>
+            </footer>
+        </div>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/register.js"> </script>
+        <script src="scripts/bmiCalc.js"> </script>
+    </body>
+</html>

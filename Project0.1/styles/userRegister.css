@@ -1,0 +1,17 @@
+/* Form container */
+
+.mainUserRegister, .mainAddStaff {
+    text-align: center;
+}
+
+.defaultFormContainer {
+    border: 2px solid black;
+    margin: 5% 30%;
+    padding: 2em;
+    text-align: center;
+}
+
+.errorText {
+    color: red;
+}
+
